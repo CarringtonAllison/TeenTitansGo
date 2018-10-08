@@ -19,50 +19,51 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 style="font-family: 'TeenTitans'; color:#52b4cd; text-align: center; font-size: 100px">Teen Titans Go!</h1>
+                <h1 style="font-family: 'TeenTitans'; color:#52b4cd; text-align: center; font-size: 100px">Teen Titans
+                    Go!</h1>
                 <p style="text-align:center; font-size: 30px">The Teen Titans Need Your Help!!</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
-                <p>1- Create a combo attack by clicking each Titan to add their power.</p>
-                <p>3- Victory comes only by matching your Combo Attack Power to the Villians Health Points exactly</p>
+            <div class="col col-lg-6">
+                <p id="directions">1- Click each Titan to add to their Combo Attack Power.</p>
+                <p id="directions">2- If your Combo Attack Power is too high you will destroy the city and lose. </p>
             </div>
-            <div class="col-lg-6">
-                <p>2- If your Combo Attack is too high you will destroy the city and lose. </p>
-                <p>4- Titans Attack Points and Villians Health Points change each game</p>
+            <div class="col col-lg-6">
+                <p id="directions">3- Victory comes only by matching your Combo Attack Power to the Villains Health Points exactly</p>
+                <p id="directions">4- After each battle Titans and Villains recover with new points!</p>
             </div>
         </div>
-        <div class="row align-items-center backDrop">
-            <div class="col-6">
-                <p>The Villian Has <span id="computer-random-text"></span> Health Points!</p>
+        <div class="row justify-content-center  align-items-center backDrop">
+            <div class="col-sm-6 col-lg-5">
+                <p>This Villain Has <span id="villain-random-text"></span> Health Points!</p>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6 col-lg-5">
+                <p>Combo Attack Power Is: <span id="total-score-text"></span> points!</p>
+            </div>
+            <div class="col-sm-12 align-items-center">
                 <p>Wins: <span id="wins-text"></span></p>
                 <p>Losses: <span id="losses-text"></span></p>
             </div>
         </div>
-        <div class="row align-items-center">
-            <div class="col col-lg-2">
-                <img id="crystal-4" class="crystal" src="./assets/images/BeastBoy.png" alt="Beast Boy">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-sm-6 col-lg-2">
+                <img id="titan-4" class="titan" src="./assets/images/BeastBoy.png" alt="Beast Boy">
             </div>
-            <div class="col col-lg-2">
-                <img id="crystal-5" class="crystal" src="./assets/images/StarFire.png" alt="Star Fire">
+            <div class="col-sm-6 col-lg-2">
+            <img id="titan-5" class="titan" src="./assets/images/StarFire.png" alt="Star Fire">
             </div>
-            <div class="col col-lg-2">
-                <img id="crystal-1" class="crystal" src="./assets/images/Robin.png" alt="Robin">
+            <div class="col-sm-6 col-lg-2">
+                <img id="titan-1" class="titan" src="./assets/images/Robin.png" alt="Robin">
             </div>
-            <div class="col col-lg-2">
-                <img id="crystal-3" class="crystal" src="./assets/images/Cyborg.png" alt="Cyborg">
+            <div class="col-sm-6 col-lg-2">
+                <img id="titan-3" class="titan" src="./assets/images/Cyborg.png" alt="Cyborg">
             </div>
-            <div class="col col-lg-2">
-                <img id="crystal-2" class="crystal" src="./assets/images/Raven.png" alt="Raven">
+            <div class="col-sm-6 col-lg-2">
+                <img id="titan-2" class="titan" src="./assets/images/Raven.png" alt="Raven">
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
-                <p>Combo Attack Power Is: <span id="total-score-text"></span></p>
-            </div>
         </div>
     </div>
 

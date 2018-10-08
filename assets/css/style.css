@@ -2,7 +2,7 @@
     background: black;
     background-image: url(../images/TitanSilo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 #yellow {
     color: yellow;
@@ -21,7 +21,22 @@ h1 {
 }
 
 .container {
-    background: rgba(0, 0, 0, .7)
+    background: rgba(0, 0, 0, .7);
+    width: 100%;
+}
+
+#total-score-text {
+    font-size: 60px;
+    text-align: center; 
+}
+
+#villain-random-text {
+    font-size: 60px;
+    text-align: center;
+}
+
+#directions {
+    font-size: 20px;
 }
 
 @font-face {
