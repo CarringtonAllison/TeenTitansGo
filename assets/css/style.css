@@ -1,0 +1,36 @@
+.black {
+    background: black;
+    background-image: url(../images/TitanSilo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#yellow {
+    color: yellow;
+}
+
+p {
+    color: white;
+    font-family: "BlockLetter";
+    font-size: 23px;    
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    font-family: 'TeenTitans';
+}
+
+.container {
+    background: rgba(0, 0, 0, .7)
+}
+
+@font-face {
+    font-family: 'TeenTitans';
+    src: url(../images/TeenTitansGo.ttf);
+
+}
+
+@font-face {
+    font-family: 'Block';
+    src: url(../images/BlockLetter.otf)
+}
