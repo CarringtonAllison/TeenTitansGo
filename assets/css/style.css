@@ -16,8 +16,10 @@ p {
 }
 
 h1 {
-    color: white;
+    color: #52b4cd;
     font-family: 'TeenTitans';
+    font-size: 100px; 
+    text-align: center;
 }
 
 .container {
@@ -36,7 +38,7 @@ h1 {
 }
 
 #directions {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 @font-face {

@@ -20,7 +20,9 @@ $("document").ready(function () {
         $("#titan-4").attr("value", titan4)
         $("#titan-5").attr("value", titan5)
     }
-
+    
+    
+    
     function start() {
         totalScore = 0;
         villainHighNumber = Math.floor(Math.random() * 120) + 19;
@@ -31,14 +33,14 @@ $("document").ready(function () {
         titan5 = Math.floor(Math.random() * 12) + 1;
         $("#villain-random-text").html(villainHighNumber);
         $("#total-score-text").html(totalScore)
-
+        
         // adds value attribute with a random number to each titan
         $("#titan-1").attr("value", titan1)
         $("#titan-2").attr("value", titan2)
         $("#titan-3").attr("value", titan3)
         $("#titan-4").attr("value", titan4)
         $("#titan-5").attr("value", titan5)
-
+        
         // when titan is clicked on it saves value to titan and then adds to totalScore
         $(".titan").on("click", function () {
             console.log($(this).attr("value"));
@@ -46,8 +48,8 @@ $("document").ready(function () {
             totalScore += savedNumber;
             console.log(totalScore);
             $("#total-score-text").html(totalScore);
-
-
+            
+            
             // logic for wins and losses
             if (totalScore === villainHighNumber) {
                 wins++;
@@ -65,9 +67,30 @@ $("document").ready(function () {
 
 
 
+        // var robin = {
+        //     attackPoints: titan1,
+        //     healthPoints: 100,
+            
+        // }
+        // var raven = {
+        //     attackPoints: titan2,
+        //     healthPoints: 100,
 
+        // }
+        // var cyborg = {
+        //     attackPoints: titan3,
+        //     healthPoints: 100,
+        // }
+        // var beastBoy = {
+        //     attackPoints: titan4,
+        //     healthPoints: 100,
+        // }
+        // var starFire = {
+        //     attackPoints: titan5,
+        //     healthPoints: 100,
 
-
+        // }
+        
 
 // var titan1 = Math.floor(Math.random() * 12) + 1;
 // var titan2 = Math.floor(Math.random() * 12) + 1;
@@ -84,7 +107,7 @@ $("document").ready(function () {
 // function randomLowNumber() {
     //     return Math.floor(Math.random() * 12) + 1;
     // }
-
+    
 
 
     // $(".titan").attr().on("click", function () {
