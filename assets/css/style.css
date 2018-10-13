@@ -3,15 +3,21 @@
     background-image: url(../images/TitanSilo.png);
     background-repeat: no-repeat;
     background-size: auto;
+    background-position: center;
 }
 #yellow {
     color: yellow;
 }
 
+#heading {
+    text-align:center; 
+    font-size: 25px;
+}
+
 p {
     color: white;
     font-family: "BlockLetter";
-    font-size: 23px;    
+    font-size: 19px;    
     font-weight: bold;
 }
 
@@ -30,15 +36,25 @@ h1 {
 #total-score-text {
     font-size: 60px;
     text-align: center; 
+    color: #52b4cd;
 }
 
 #villain-random-text {
     font-size: 60px;
     text-align: center;
+    color: red;
 }
 
 #directions {
-    font-size: 18px;
+    font-size: 16px;
+}
+
+#wins-text {
+    color: yellow; 
+}
+
+#losses-text {
+    color: red;
 }
 
 @font-face {
@@ -71,6 +87,16 @@ h1 {
     h1 {
         font-size: 118px
     }
+
+    p {
+        font-size: 29px;
+    }
+
+    #heading {
+        font-size: 34px;
+    }
+    
+    
 } 
 
 
@@ -86,6 +112,18 @@ h1 {
         font-size: 121px
     }
     
+    p {
+        font-size: 40px;
+    }
+          
+    #heading {
+        font-size: 47px;
+    }
+    
+    #directions {
+        font-size: 20px;
+    }
+    
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -98,6 +136,10 @@ h1 {
     
     h1 {
         font-size: 164px
+    }
+
+    p {
+        font-size: 25px;
     }
 } 
 

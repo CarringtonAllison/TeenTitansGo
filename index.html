@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./assets/images/TeenFavIcon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+        crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -21,55 +21,59 @@
         <div class="row">
             <div class="col">
                 <h1>Teen Titans <span id="yellow">Go!</span></h1>
-                <p style="text-align:center; font-size: 30px">The Teen Titans Need Your Help!!</p>
+                <p id="heading">The Teen Titans Need Your Help!!</p>
             </div>
         </div>
         <div class="row">
             <div class="col col-lg-6">
                 <p id="directions">1- Click each Titan to add to their Combo Attack Power.</p>
-                <p id="directions">2- Victory comes only by matching your Combo Attack Power to the Villains Health Points exactly</p>
+                <p id="directions">2- If the Combo Attack Power is equal to the Villains Health
+                    Points exactly you win!</p>
             </div>
             <div class="col col-lg-6">
-                <p id="directions">3- If your Combo Attack Power is too high you will destroy the city and lose. </p>
+                <p id="directions">3- If the Combo Attack Power is too high you will destroy the city and lose. </p>
                 <p id="directions">4- After each battle Titans and Villains recover with new points!</p>
             </div>
         </div>
         <div class="row justify-content-center  align-items-center backDrop">
-            <div class="col-sm-6 col-lg-5">
+            <div class="col-sm-12 col-lg-6">
                 <p>This Villain Has <span id="villain-random-text"></span> Health Points!</p>
             </div>
-            <div class="col-sm-6 col-lg-5">
+            <div class="col-sm-12 col-lg-6">
                 <p>Combo Attack Power Is: <span id="total-score-text"></span> points!</p>
             </div>
-            <div class="col-sm-12 align-items-center">
-                <p>Wins: <span id="wins-text"></span></p>
-                <p>Losses: <span id="losses-text"></span></p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col align-items-center">
+                <p id="winning">Wins: <span id="wins-text"></span></p>
+            </div>
+            <div class="col">
+                <p id="losing">Losses: <span id="losses-text"></span></p>
             </div>
         </div>
         <div class="row align-items-center justify-content-center">
             <div class="col">
-                <img id="titan-1" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charbeastboy.png" alt="Beast Boy">
+                <img id="titan-1" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charbeastboy.png"
+                    alt="Beast Boy">
             </div>
             <div class="col">
-                <img id="titan-2" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charstarfire.png" alt="Star Fire">
+                <img id="titan-2" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charstarfire.png"
+                    alt="Star Fire">
             </div>
             <div class="col">
-                <img id="titan-3" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charrobin.png" alt="Robin">
+                <img id="titan-3" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charrobin.png"
+                    alt="Robin">
             </div>
             <div class="col">
-                <img id="titan-4" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charcyborg.png" alt="Cyborg">
+                <img id="titan-4" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charcyborg.png"
+                    alt="Cyborg">
             </div>
             <div class="col">
-                <img id="titan-5" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charraven.png" alt="Raven">
+                <img id="titan-5" class="titan" src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i65/ttg_propd_charraven.png"
+                    alt="Raven">
             </div>
-        </div>
-        <div class="row">
         </div>
     </div>
-
-
-
-
 
     <script src="./assets/javascript/game.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
