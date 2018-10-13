@@ -18,7 +18,7 @@ p {
 h1 {
     color: #52b4cd;
     font-family: 'TeenTitans';
-    font-size: 100px; 
+    font-size: 82px; 
     text-align: center;
 }
 
@@ -51,3 +51,62 @@ h1 {
     font-family: 'Block';
     src: url(../images/BlockLetter.otf)
 }
+
+.titan {
+    height: 82px;
+    margin-left: -5px;
+    margin-right: -5px; 
+    border-left: -5px; 
+    border-right: -5px; 
+}
+
+
+@media only screen and (min-width: 600px) {
+    
+    .titan {
+        height: 127px;
+       
+    }
+
+    h1 {
+        font-size: 118px
+    }
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+    
+    .titan {
+        height: 179px;
+        
+    }
+    
+    h1 {
+        font-size: 121px
+    }
+    
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+    
+    .titan {
+        height: 249px;
+        
+    }
+    
+    h1 {
+        font-size: 164px
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    
+    .titan {
+    height: 301px;
+   
+    }
+
+} 
