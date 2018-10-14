@@ -34,19 +34,19 @@ h1 {
 }
 
 #total-score-text {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center; 
     color: #52b4cd;
 }
 
 #villain-random-text {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     color: red;
 }
 
 #directions {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #wins-text {
